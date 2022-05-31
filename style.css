@@ -18,6 +18,7 @@ html {
 .clear {
     clear: both;
 }
+
 /* ----------------------------- */
 /* Color */
 .primary_color {
@@ -27,6 +28,7 @@ html {
 .secondaire_color {
     color: #a197bd;
 }
+
 /* ----------------------------- */
 /* start block */
 .block {
@@ -36,6 +38,7 @@ html {
 .last.block {
     margin-bottom: 110px;
 }
+
 /* end block */
 /* ----------------------------- */
 /* start header_menu */
@@ -44,16 +47,20 @@ html {
     padding: 0;
     list-style-type: none;
 }
+
 .horizontal_list li {
     float: left;
 }
+
 .horizontal_list li:before {
     content: none;
 }
+
 .horizontal_list li {
     padding-left: 0;
     text-indent: 0;
 }
+
 /* end header_menu*/
 /* ----------------------------- */
 /* start line */
@@ -62,18 +69,22 @@ html {
     height: 26px;
     position: relative;
 }
+
 .line_left,
 .line_right {
     border-top: 1px solid #434247;
     width: 305px;
     margin-top: 13px;
 }
+
 .line_left {
     float: left;
 }
+
 .line_right {
     float: right;
 }
+
 .left_circle,
 .central_circle,
 .right_circle {
@@ -82,24 +93,29 @@ html {
     position: absolute;
     border-radius: 50px;
 }
+
 .left_circle,
 .right_circle {
     width: 13px;
     height: 13px;
     top: 7px;
 }
+
 .left_circle {
     left: 314px;
 }
+
 .central_circle {
     width: 26px;
     height: 26px;
     top: 0px;
     left: 322px;
 }
+
 .right_circle {
     left: 343px;
 }
+
 /* end line */
 /* ---------------------------- */
 
@@ -113,16 +129,19 @@ h4 {
     font-weight: 300;
     color: #48da9b;
 }
+
 h1 {
     font-size: 48px;
     font-weight: 300;
     /* margin: 20px 0; */
 }
+
 h2 {
     font-size: 28px;
     margin: 32px 0 24px;
     font-weight: 350;
 }
+
 /* h3 {
     font-size: 24px;
 } */
@@ -149,16 +168,19 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 li {
     /* padding-left: 1em;
     text-indent: -0.7em; */
 }
+
 li:before {
     content: "•";
     color: #a197bd;
     font-size: 15px;
     padding-right: 8px;
 }
+
 /* -------------------------  */
 
 /* Containers size */
@@ -167,16 +189,19 @@ li:before {
     width: 960px;
     margin: 0 auto;
 }
+
 #header {
     height: 90px;
     border-bottom: 1px solid #403f44;
 }
+
 .header_logotype_container {
     width: 261px;
     height: 90px;
     border-right: 1px solid #403f44;
     float: left;
 }
+
 .header_menu_container {
     height: 90px;
     width: 699px;
@@ -187,11 +212,13 @@ li:before {
     width: 260px;
     float: left;
 }
+
 #content_container {
     width: 699px;
     border-left: 1px solid #403f44;
     float: left;
 }
+
 #footer {
     width: 100%;
     height: 60px;
@@ -210,8 +237,9 @@ li:before {
 .header_menu {
     width: 699px;
     margin-top: 35px;
-    margin-left: 5px;
+    margin-left: 20px;
 }
+
 .header_menu a {
     text-decoration: none;
     padding: 0 12px;
@@ -219,9 +247,11 @@ li:before {
     font-size: 16px;
     font-weight: 400;
 }
+
 .header_menu a.no_border {
     border-left: none;
 }
+
 .header_menu a:hover {
     color: #a197bd;
 }
@@ -245,12 +275,14 @@ li:before {
     margin-top: 25px;
 }
 
-.contact_details_content h2 + p.secondaire_color {
+.contact_details_content h2+p.secondaire_color {
     margin-top: 10px;
 }
+
 .contact_details_content p {
     margin: 0;
 }
+
 .contact_details_content p.secondaire_color {
     margin-top: 25px;
 }
@@ -304,6 +336,7 @@ li:before {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
